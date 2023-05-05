@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"name": "destruct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/vault.sol": "Vault"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/IERC20.sol": {
+			"keccak256": "0x7916fc93f37f2b06ecf80c6b1255e963ac68444f57fea8b83d268bb29721b1a7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26f3c1103a17f637e921f49cdb9c06fb6c01a6de4dab014870828ec799829127",
+				"dweb:/ipfs/Qmf8jaKiD8dRTrEXPsCmeeddF4FhQR3QnM9MKEMYqi6m6d"
+			]
+		},
+		"Contracts/Mbaku.sol": {
+			"keccak256": "0xa5bc3421d9ae000314eff79a536e14013f9fd685d84cfb6fef9ff00f91d53996",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3544664e014ca977cb85944c502af8a7067fe935c9f1507d06243c0c02cd4779",
+				"dweb:/ipfs/QmNm8CtXWdxXdw4ZRHacSuREEgQRYAETo8cXB5EwWanc8m"
+			]
+		},
+		"Contracts/vault.sol": {
+			"keccak256": "0x9790947bdf23949e2cdd808f74dfc0c4c83e03ada78ac598cdd49bcaec0e11a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24f2c13cbd7b8ce90319aa6baff28f3fc8639ca7cac545153586b7287d2b0515",
+				"dweb:/ipfs/QmTDMgpTVgz2rZPY641DaJBrK59fhsVN4bMW6usT1uyAvU"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,25 +1,26 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 interface IdeppToken{
-    // function totalSupply() external view returns(uint);
+     function totalSupply() external view returns(uint);
 
-    // function balanceOf(address account) external view returns(uint);
+     function balanceOf(address account) external view returns(uint);
 
     function transfer(address recipient, uint amount)payable external returns(bool);
 
-    // function allowance(address owner, address spender, uint amount) external view returns(uint);
+     function allowance(address owner, address spender, uint amount) external view returns(uint);
 
     function approve(address spender, uint amount) external returns(bool);
 
     function transferFrom(address sender, address recipient, uint amount)payable external returns(bool);
 
     //Events
-    event Transfer(address indexed from, address indexed to, uint amount);
-    event Approval(address indexed owner, address indexed spender, uint amount); 
+    
 }
 
- contract deppToken is IdeppToken{
+ contract deppToken {
 
+event Transfer(address indexed from, address indexed to, uint amount);
+    event Approval(address indexed owner, address indexed spender, uint amount); 
      constructor() payable {
 
      }
@@ -38,10 +39,11 @@ interface IdeppToken{
          return balanceOf[account];
      }
     //   function Allowance(address owner, address spender, uint amount) external view returns(uint){
-    //       return allowance[owner][spender];
+    //       return allowance[owner][spender] = amount;
+
     //   }
 
-    function transfer(address recipient, uint amount) payable external override returns(bool){
+    function transfer(address recipient, uint amount) payable external  returns(bool){
         balanceOf[msg.sender] -= amount;
         balanceOf[recipient] += amount;
         emit Transfer(msg.sender, recipient, amount);
@@ -49,13 +51,13 @@ interface IdeppToken{
     }
 
 
-    function approve(address spender, uint amount) external override returns(bool){
+    function approve(address spender, uint amount) external  returns(bool){
         allowance[msg.sender][spender] = amount;
         emit Approval(msg.sender, spender, amount);
         return true;
     }
 
-    function transferFrom(address sender, address recipient, uint amount) payable external override returns(bool){
+    function transferFrom(address sender, address recipient, uint amount) payable external  returns(bool){
         allowance[sender][msg.sender] -= amount;
         balanceOf[sender] -= amount;
         balanceOf[recipient] += amount;

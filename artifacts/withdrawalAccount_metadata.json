@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/piggybank.sol": "withdrawalAccount"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/piggybank.sol": {
+			"keccak256": "0x22225803b9ed1a34860aa40a6f51f7ff85f5317b89abf4a7ad583cb2b467e51d",
+			"urls": [
+				"bzz-raw://9afe6ed04339ce75081fc6bfb18823212dc17b8720b147bc07e4faffaa5b0807",
+				"dweb:/ipfs/QmeaTZd4dQFYgqrXKnDzDVKFkb7aKRvxwDrELMM4p3jR83"
+			]
+		}
+	},
+	"version": 1
+}

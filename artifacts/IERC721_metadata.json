@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nfiId",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/englishAuction.sol": "IERC721"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/englishAuction.sol": {
+			"keccak256": "0x47a4b092b92abe69739d8d5f363b7249024cdb2a3e32b0bb69e6aab050fe9614",
+			"urls": [
+				"bzz-raw://04d864c0cdc6448c7de0cacba0de5e503e64e9561ddca4fb9de5d76ecfe14056",
+				"dweb:/ipfs/QmVnD596F2NmYZhZqXrspvzXEruTnHzcAAu8fHTKpVrfQk"
+			]
+		}
+	},
+	"version": 1
+}

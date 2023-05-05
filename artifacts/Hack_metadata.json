@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Hack.sol": "Hack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Hack.sol": {
+			"keccak256": "0x21cdfd832f55effdfe05b3d39a7fbd67d092d215e3b1f2e9e83e636612aee3e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9a21c6fcfc2b2d19b1ee606295266bc93a3514293e01e1d4607701a9e39c595",
+				"dweb:/ipfs/QmSjpHoeCv5foP5ZTi2vBYV5JjH76aWLLxhs85xP1itNN3"
+			]
+		}
+	},
+	"version": 1
+}

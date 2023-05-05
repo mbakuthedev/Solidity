@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract TestContract",
+						"name": "_test",
+						"type": "address"
+					}
+				],
+				"name": "callFoo",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/usingCall.sol": "Call"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/usingCall.sol": {
+			"keccak256": "0x9dd88f1092ace73ed7721fef896fb12603829f8a386b3446885c070f4741fe05",
+			"urls": [
+				"bzz-raw://d47c01ad8ce3be76ccbcc0941b5a87ab16d9e796008c1c00183e33fce5b89558",
+				"dweb:/ipfs/QmWQYJdXMmN7Vm1PyBVi7CD2eiaFZgYaAHVLq63Hk5T2gr"
+			]
+		}
+	},
+	"version": 1
+}
